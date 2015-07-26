@@ -20,6 +20,7 @@ Gem::Specification.new do |gem|
   gem.require_paths = ["lib"]
 
   gem.add_runtime_dependency 'thor'
+  gem.add_runtime_dependency 'term-ansicolor', '~> 1.3', '>= 1.3.0'
 
   gem.add_development_dependency 'bundler'
   gem.add_development_dependency 'rspec'
