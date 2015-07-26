@@ -1,0 +1,6 @@
+#!/usr/bin/env ruby
+
+require 'turbo/cli'
+
+Turbo::CLI.start
+
